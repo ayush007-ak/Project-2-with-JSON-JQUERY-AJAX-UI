@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script src="js/jquery.min.js"></script>
+<script>
+    var i=0;
+$(document).ready(function(){
+$('#b1').click(function(){
+$('#div1').text("");
+$.ajax(
+  {
+      type: 'GET',
+      url:'GK.json',
+      dataType: 'json',
+      success:function(data){
+ 
+          $.each(data.Subject.GK,function(index,element){
+            $("#div1")
+            .append(`<p class="question">Q${index+1} ${element.Question}"</p>`)
+            //.append(`<br>`)  
+            .append(`<input type="radio" name="${element.name} id="rb"${index+1} value="${element.Option1}")>`)
+            .append(`<label for="label1">${element.Option1}</label><br>`)
+            .append(`<input type="radio" name="${element.name} id="rb"${index+1} value="${element.Option2}")>`)
+            .append(`<label for="label1">${element.Option2}</label><br>`)
+            .append(`<input type="radio" name="${element.name} id="rb"${index+1} value="${element.Option3}")>`) 
+            .append(`<label for="label1">${element.Option3}</label><br>`)
+            .append(`<input type="radio" name="${element.name} id="rb"${index-1} value="${element.Option4}")>`)   
+            .append(`<label for="label1">${element.Option4}</label><br><br>`)
+          
+          });
+      },
+     error:function(xhr,ajaxOptions,thrownError){
+          alert(xhr.status);
+         alert(thrownError);
+      } 
+});
+$("#b1").text('SUBMIT'); 
+//$("#b1").append(<a href="quizAjax_JSON.html"/>);
+
+});
+});
+
+</script>
+</head>
+<body>
+    <h2>---Q|U|I|Z---</h2>
+    <div id="div1">
+    </div>
+    <form>
+        <button type="button" id="b1">Begin Quiz</button> 
+    </form>
+</body>
+</html>

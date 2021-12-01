@@ -1,0 +1,106 @@
+{
+    "Subject": {
+        "Java": [
+            {
+                "Option4": "None of the above.",
+                "Option3": "public static voidentity main(String[] args)",
+                "Option2": "public int main(String[] args)",
+                "Option1": "public static int main(String[] args)",
+                "Question": "What is correct syntax for main method of a java class?",
+                "identity": 1,
+                "Correct": "public static voidentity main(String[] args)"
+                
+            },
+            {
+                "Option4": "64 bit",
+                "Option3": "32 bit",
+                "Option2": "16 bit",
+                "Option1": "8 bit",
+                "Question": "- What is the size of int variable?",
+                "identity": 2,
+                "Correct": "32 bit"
+                
+            },
+            {
+                "Option4": "not defined",
+                "Option3": null,
+                "Option2": 0,
+                "Option1": "'\\u0000'",
+                "Question": "What is the default value of char variable?",
+                "identity": 3,
+                "Correct": "'\\u0000'"
+                
+            },
+            {
+                "Option4": "None of the above.",
+                "Option3": "Variables, methods and constructors which are declared protected in the superclass can be accessed only by its child class.",
+                "Option2": "Variables, methods and constructors which are declared protected can be accessed by any class lying in same package.",
+                "Option1": "Variables, methods and constructors which are declared protected can be accessed by any class.",
+                "Question": "Which of the following is true about protected access modifier?",
+                "identity": 4,
+                "Correct": "Variables, methods and constructors which are declared protected can be accessed by any class lying in same package."
+                
+            },
+            {
+                "Option4": "None of the above.",
+                "Option3": "Encapsulation is the technique of making the fields in a class private and providentitying access to the fields via public methods.",
+                "Option2": "Encapsulation is the ability of an object to take on many forms.",
+                "Option1": "Encapsulation is a technique to define different methods of same type.",
+                "Question": "What is Encapsulation?",
+                "identity": 5,
+                "Correct": "Encapsulation is the technique of making the fields in a class private and providentitying access to the fields via public methods."
+                
+            },
+            {
+                "Option4": "Applet is a run time environment.",
+                "Option3": "Applet is a tool.",
+                "Option2": "Applet is a standalone java program.",
+                "Option1": "An applet is a Java program that runs in a Web browser.",
+                "Question": "What is an applet?",
+                "identity": 6,
+                "Correct": "An applet is a Java program that runs in a Web browser."
+                
+            },
+            {
+                "Option4": "None of the above.",
+                "Option3": "Both of the above.",
+                "Option2": "object.",
+                "Option1": "type.",
+                "Question": "Dynamic binding uses which information for binding?",
+                "identity": 7,
+                "Correct": "object."
+                
+            },
+            {
+                "Option4": "All of the above.",
+                "Option3": "Invoke its suspend() method.",
+                "Option2": "invoke object's wait method.",
+                "Option1": "Invoke its sleep() method.",
+                "Question": "Which is the way in which a thread can enter the waiting state?",
+                "identity": 8,
+                "Correct": "All of the above."
+                
+            },
+            {
+                "Option4": "Program will compile and run to show the required output.",
+                "Option3": "Program will compile and run without any output.",
+                "Option2": "RunTime Error: NoSuchMethodError.",
+                "Option1": "Compilation Error.",
+                "Question": "What will happen if static modifier is removed from the signature of the main method?",
+                "identity": 9,
+                "Correct": "RunTime Error: NoSuchMethodError."
+                
+            },
+            {
+                "Option4": "None of the above.",
+                "Option3": "Both of the above.",
+                "Option2": "If an exception occurs.",
+                "Option1": "If an error occurs.",
+                "Question": "In which case, a program is expected to recover?",
+                "identity": 10,
+                "Correct": "If an exception occurs."
+                
+            }
+        ]
+    }
+}

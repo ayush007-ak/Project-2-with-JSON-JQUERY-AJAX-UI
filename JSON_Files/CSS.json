@@ -1,0 +1,105 @@
+{
+    "Subject": {
+        "CSS": [
+            {
+                "Option4": "Computer Style Sheet",
+                "Option3": "Cascading Style Sheet",
+                "Option2": "Colorful Style Sheet",
+                "Option1": "Creative Style Sheet",
+                "Question": "What is CSS stands for?",
+                "identity": 1,
+                "Correct": "Cascading Style Sheet"
+                
+            },
+            {
+                "Option4": "text",
+                "Option3": "class",
+                "Option2": "id",
+                "Option1": "name",
+                "Question": "If we want define style for an unique element, then which css selector will we use?",
+                "identity": 2,
+                "Correct": "id"
+                
+            },
+            {
+                "Option4": "padding",
+                "Option3": "float",
+                "Option2": "clear",
+                "Option1": "margin",
+                "Question": "If we don't want to allow a floating div to the left side of an element, which css property will we use ?",
+                "identity": 3,
+                "Correct": "clear"
+                
+            },
+            {
+                "Option4": "z-index",
+                "Option3": "s-index",
+                "Option2": "x-index",
+                "Option1": "d-index",
+                "Question": "Suppose we want to arragnge five nos. of DIVs so that DIV4 is placed above DIV1. Now, which css property will we use to control the order of stack?",
+                "identity": 4,
+                "Correct": "z-index"
+                
+            },
+            {
+                "Option4": "arr",
+                "Option3": "default",
+                "Option2": "arrow",
+                "Option1": "pointer",
+                "Question": "If we want to show an Arrow as cursor, then which value we will use ?",
+                "identity": 5,
+                "Correct": "default"
+                
+            },
+            {
+                "Option4": "All of the Mentioned",
+                "Option3": "background-color",
+                "Option2": "color",
+                "Option1": "bgcolor",
+                "Question": "The property in CSS used to change the background color of an element is -",
+                "identity": 6,
+                "Correct": "background-color"
+                
+            },
+            {
+                "Option4": "none of the mentioned",
+                "Option3": "text-edit",
+                "Option2": "text-size",
+                "Option1": "font-size",
+                "Question": "The CSS property used to control the element's font-size is -",
+                "identity": 7,
+                "Correct": "font-size"
+                
+            },
+            {
+                "Option4": "None of above",
+                "Option3": "background-attachement",
+                "Option2": "background-image",
+                "Option1": "background-color",
+                "Question": "Which of the following CSS property is used to set the background image of an element?",
+                "identity": 8,
+                "Correct": "background-image"
+                
+            },
+            {
+                "Option4": "None of the above",
+                "Option3": "a {text-decoration : none;}",
+                "Option2": "a {decoration : no-underline;}",
+                "Option1": "a {text-decoration : underline;}",
+                "Question": "Which of the following is the correct syntax to display the hyperlinks without any underline?",
+                "identity": 9,
+                "Correct": "a {text-decoration : none;}"
+                
+            },
+            {
+                "Option4": "p {background-color : yellow;}",
+                "Option3": "p {background-color : #yellow;}",
+                "Option2": "all {background-color : yellow;}",
+                "Option1": "all p {background-color : #yellow;}",
+                "Question": "Which of the following is the correct syntax to make the background-color of all paragraph elements to yellow?",
+                "identity": 10,
+                "Correct": "p {background-color : yellow;}"
+            }
+        ]
+    }
+}

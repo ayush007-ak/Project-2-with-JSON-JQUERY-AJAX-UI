@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="Register.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+     <script type="text/javascript">
+
+       function validate(){
+       var firstname=document.getElementById("firstname");
+       var lastname=document.getElementById("lastname");
+       var Username=document.getElementById("username");
+       var email=document.getElementById("email");
+       var password=document.getElementById("password");
+       var address = document.getElementById("address")
+
+
+       if(firstname.value.length <= 0){
+       alert("firstname is required");
+       return false;
+      }
+      if(lastname.value.length <=0){
+        alert("lastname is required");
+        return false;
+      }
+      if(Username.value.length <=0){
+        alert("lastname is required");
+        return false;
+      }
+      if(email.value.length <=0){
+        alert("lastname is required");
+        return false;
+      }
+      if(address.value.length <=0){
+        alert("address is required");
+        return false;
+      }
+     
+      else{
+        return true;
+      }
+
+      }
+     </script>
+   </head>
+<body class="body-reg">
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="Login.html" onsubmit=" return validate()">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" placeholder="Enter your name" id="firstname" >
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name</span>
+            <input type="text" placeholder="Enter your name" id="lastname" >
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username"  id="username">
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" id="email">
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your password" id="password">
+          </div>
+          <div class="input-box">
+            <span class="details">Date of Birth</span>
+            <input type="date" placeholder="Enter your password" id="dob">
+          </div>
+          <div class="input-box">
+              <span class="details">
+                  Country
+              </span>
+              <select name="country" id="country" class="selected">
+                  <option>none</option>
+                  <option value="India">India</option>
+                  <option value="England">England</option>
+                  <option value="Australia">Australia</option>
+                  <option value="South Africa">South Africa</option>
+                    
+              </select>
+          </div>
+          <div class="input-box">
+              <span class="details">
+                  City
+              </span>
+              <select name="city" id="city" class="selected">
+                  <option>none</option>
+                  <option value="Indore">Indore</option>
+                  <option value="Pune">Pune</option>
+                  <option value="Bangalore">Bangalore</option>
+                  <option value="Hydrabad">Hydrabad</option>
+                    
+              </select>
+          </div>
+         
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" placeholder="Enter your Address" id="address">
+          </div>
+          
+          
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2" class="lab2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

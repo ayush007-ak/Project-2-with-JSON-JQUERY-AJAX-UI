@@ -1,0 +1,106 @@
+{
+    "Subject": {
+        "Python": [
+            {
+                "Option4": "None of the option",
+                "Option3": 64,
+                "Option2": 32,
+                "Option1": 16,
+                "Question": "What is the maximum possible length of an identityentifier?",
+                "identity": 1,
+                "Correct": "None of the option"
+                
+            },
+            {
+                "Option4": "Wick van Rossum",
+                "Option3": "Niene Stom",
+                "Option2": "Guidentityo van Rossum",
+                "Option1": "Zim Den",
+                "Question": "Who developed the Python language?",
+                "identity": 2,
+                "Correct": "Guidentityo van Rossum"
+                
+            },
+            {
+                "Option4": "None of above",
+                "Option3": "C",
+                "Option2": "Hindi",
+                "Option1": "English",
+                "Question": "In which language is Python written?",
+                "identity": 3,
+                "Correct": "C"
+                
+            },
+            {
+                "Option4": "None of these",
+                "Option3": ".p",
+                "Option2": ".python",
+                "Option1": ".py",
+                "Question": "Which one of the following is the correct extension of the Python file?",
+                "identity": 4,
+                "Correct": ".py"
+                
+            },
+            {
+                "Option4": "ascii_lowercase+string.ascii_upercase",
+                "Option3": "lowercase_string.upercase",
+                "Option2": "ascii_lowercase_string.digits",
+                "Option1": "character",
+                "Question": "The output to execute string.ascii_letters can also be obtained from:?",
+                "identity": 5,
+                "Correct": "ascii_lowercase+string.ascii_upercase"
+                
+            },
+            {
+                "Option4": "Infile = open.file(''d:\\\\java.txt'',''r'')",
+                "Option3": "Infile = open(''d:\\java.txt'',''r'')",
+                "Option2": "Infile = open(file=''d:\\\\\\java.txt'', ''r'')",
+                "Option1": "Infile = open(''d:\\\\java.txt'', ''r'')",
+                "Question": "Which one of the following syntaxes is the correct syntax to read from a simple text file stored in ''d:\\java.txt''?",
+                "identity": 6,
+                "Correct": "Infile = open(''d:\\\\java.txt'', ''r'')"
+                
+            },
+            {
+                "Option4": "None of these",
+                "Option3": "print",
+                "Option2": "println",
+                "Option1": "val",
+                "Question": "Which of the following functions is a built-in function in python language?",
+                "identity": 7,
+                "Correct": "print"
+                
+            },
+            {
+                "Option4": "Paranthesis",
+                "Option3": "Substraction",
+                "Option2": "Multiplication",
+                "Option1": "Division",
+                "Question": "Which of the following functions is a built-in function in python language?",
+                "identity": 8,
+                "Correct": "Paranthesis"
+                
+            },
+            {
+                "Option4": "Power and Division",
+                "Option3": "Subtraction and Division",
+                "Option2": "Division and Multiplication",
+                "Option1": "Division, Power, Multiplication, Addition and Subtraction",
+                "Question": "Which one of the following has the same precedence level?",
+                "identity": 9,
+                "Correct": "Division and Multiplication"
+                
+            },
+            {
+                "Option4": "_try_",
+                "Option3": "try",
+                "Option2": "val",
+                "Option1": "_val",
+                "Question": "Which of the following words cannot be a variable in python language?",
+                "identity": 10,
+                "Correct": "try"
+                
+            }
+        ]
+    }
+}

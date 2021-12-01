@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script src="/js/jquery.min.js"></script>
+<script>
+    var i=0;
+$(document).ready(function(){
+$('#b1').click(function(){
+$('#div1').text("");
+
+$.ajax(
+  {   
+      type: 'GET',
+      url:'/JSON_Files/Database.json',
+      dataType: 'json',
+      success:function(data){
+ 
+          $.each(data.Subject.Database,function(index,element){
+            $("#div1")
+            .append(`<p class="question">Q${index+1} ${element.Question}"</p>`)
+            //.append(`<br>`)  
+            .append(`<input type="radio" name=ques${element.identity} id=rb${element.identity}1 value=${element.Option1})>`)
+            .append(`<label for="label1">${element.Option1}</label><br>`)   
+            .append(`<input type="radio" name=ques${element.identity} id=rb${element.identity}2 value=${element.Option2})>`)
+            .append(`<label for="label1">${element.Option2}</label><br>`)
+            .append(`<input type="radio" name=ques${element.identity} id=rb${element.identity}3 value=${element.Option3})>`) 
+            .append(`<label for="label1">${element.Option3}</label><br>`)
+            .append(`<input type="radio" name=ques${element.identity} id=rb${element.identity}4 value=${element.Option4})>`)   
+            .append(`<label for="label1">${element.Option4}</label><br><br>`) 
+          
+          });
+      },
+      error:function(xhr,ajaxOptions,thrownError){
+          alert(xhr.status);
+         alert(thrownError);
+      } 
+});
+$("#b1").text('SUBMIT'); 
+//$("#b1").append(<a href="quizAjax_JSON.html"/>);
+
+});
+});
+
+</script>
+</head>
+<body>
+    <!-- <h2>---Q|U|I|Z---</h2>
+    <div id="div1">
+    </div>
+    <form>
+        <button type="button" id="b1">Begin Quiz</button>
+    </form> -->
+    <h2 style="text-align: center; background-color: blueviolet; color: black; border: black; border-radius: 10%; font: bold; font-family: Georgia, 'Times New Roman', Times, serif;">DataBase Quiz</h2>
+    <div id="div1" style="text-align: center;">
+    </div>
+    <form>
+        <div style="text-align: center;">
+            <button type="button" id="b1" style="border: none;
+            color:white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px; background-color: cornflowerblue; border-radius: 20%;" >Begin Quiz</button>
+        </div>
+        
+    </form>
+</body>
+</html>

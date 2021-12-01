@@ -1,0 +1,98 @@
+{
+    "Subject": {
+        "Database": [
+            {
+                "Option4": "Data Backup Management System",
+                "Option3": "Database Migration System",
+                "Option2": "Database Management System",
+                "Option1": "Data of Binary Management System",
+                "Question": "What is the fullform of DBMS ?",
+                "identity": 1,
+                "correctAnswer": "Database Management System"
+            },
+            {
+                "Option4": "Organized collection of data that cannot be updated",
+                "Option3": "Organized collection of data or information that can be accessed, updated, and managed",
+                "Option2": "Collection of data or information without organizing",
+                "Option1": "Organized collection of tables that cannot be accessed, updated, and managed",
+                "Question": "Database is a _______________________",
+                "identity": 2,
+                "correctAnswer": "Organized collection of data or information that can be accessed, updated, and managed"
+                
+            },
+            {
+                "Option4": "All of the above",
+                "Option3": "Data in the form of audio or videntityeo",
+                "Option2": "Text, files containing data",
+                "Option1": "Image oriented data",
+                "Question": "Which type of data can be stored in the database?",
+                "identity": 3,
+                "correctAnswer": "All of the above"
+                
+            },
+            {
+                "Option4": "Data Migration Language",
+                "Option3": "Data Markup Language",
+                "Option2": "Data Manipulation Language",
+                "Option1": "Data Management Language",
+                "Question": "Full form of DML is",
+                "identity": 4,
+                "correctAnswer": "Data maniipulation Language"
+            },
+            {
+                "Option4": "Sharon B. Codd",
+                "Option3": "Charles Babbage",
+                "Option2": "Charles Bachman",
+                "Option1": "Edgar Frank Codd",
+                "Question": "Who created the DBMS?",
+                "identity": 5,
+                "correctAnswer": "Charles Bachman"
+            },
+            {
+                "Option4": "All of the above",
+                "Option3": "Entity",
+                "Option2": "Tuples",
+                "Option1": "Degree",
+                "Question": "Rows of a relation are known as the _______.",
+                "identity": 6,
+                "correctAnswer": "All of the above"
+            },
+            {
+                "Option4": "Many teachers may have many classes",
+                "Option3": "Many classes may have many teachers",
+                "Option2": "One teacher can have many classes",
+                "Option1": "One class may have many teachers",
+                "Question": "What do you mean by one to many relationships?",
+                "identity": 7,
+                "correctAnswer": "One teacher can have many classes"
+            },
+            {
+                "Option4": "Query",
+                "Option3": "DDL",
+                "Option2": "None of the option",
+                "Option1": "DML",
+                "Question": "Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?",
+                "identity": 8,
+                "correctAnswer": "DDL"
+            },
+            {
+                "Option4": "Relational schema",
+                "Option3": "Query",
+                "Option2": "DDL",
+                "Option1": "DML",
+                "Question": "Which of the following providentityes the ability to query information from the database and insert tuples into, delete tuples from, and modify tuples in the database?",
+                "identity": 9,
+                "correctAnswer": "DML"
+            },
+            {
+                "Option4": "select empidentity where empidentity = 1009 and Lastname = 'GELLER';",
+                "Option3": "select empidentity from emp;",
+                "Option2": "select empidentity from emp where empidentity = 10006;",
+                "Option1": "select * from emp where empidentity = 10003;",
+                "Question": "Which one of the following given statements possibly contains the error?",
+                "identity": 10,
+                "correctAnswer":  "select * from emp where empidentity = 10003;"
+            }
+        ]
+    }
+}
